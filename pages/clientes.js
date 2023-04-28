@@ -3,7 +3,7 @@ import { Button } from '@mui/material'
 import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 
-import getAuthServerSideProps from '@/utils/getAuthServerSideProps'
+import { getAuthServerSideProps } from '@/utils/getAuthServerSideProps'
 const columns = [
   { field: 'id', headerName: 'ID', width: 90 },
   {
